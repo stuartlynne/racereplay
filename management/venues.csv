@@ -1,0 +1,20 @@
+"Venue","Organizer","Description","Distance","MinSpeed","MaxSpeed","gaptime","updatedby","timestamp","ActiveFlag"
+BVCTrack,BVC,"Burnaby Velodrome",.2,25,70,2,stuart.lynne@gmail.com,"2012-10-05 12:00:00",1
+CRCCrit,CRC,"Coastal Racing",1.345,10,60,5,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+WTNC,EV,"Escape Velocity Cycling Club",1.58,20,55,5,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVRiverRoad,EV,"EV SS River Road RR",6.2,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVAldergroveLong,EV,"EV SS Aldergrove Long RR",10.3,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVAldergrove,EV,"EV SS Aldergrove",6.8,20,55,10,stuart.lynne@gmail.com,"2012-10-08 22:11:48",0
+EVBradner,EV,"EV SS Bradner RR",9,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVMurrayVilleCrit,EV,"EV SS MurrayVille Crit",1.1,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVMurchie,EV,"EV SS Murchie RR",7.8,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVRiverRoadTT,EV,"EV SS River Road TT",12,10,60,0,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVArmstrong,EV,"EV SS Armstrong RR",7.5,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVThunderbird,EV,"EV SS Thunderbird RR",6.1,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVThunderbirdLong,EV,"EV SS Thunderbird Long RR",10.1,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVWixBrown,EV,"EV SS Wix Brown RR",6.4,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+PVThunderbird,PV,"PV Thunderbird RR",6.1,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+PVTownHall,PV,"PV Town Hall RR",7.2,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVSnake,EV,"EV SS Snake RR",10.4,20,55,10,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVZeroAve,EV,"EV SS ZeroAve TT",19.8,10,60,0,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
+EVSquamishTT,EV,"EV SS Squamish TT",38,10,60,0,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0

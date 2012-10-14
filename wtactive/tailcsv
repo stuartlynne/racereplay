@@ -1,0 +1,24 @@
+#!/bin/sh
+
+onerror() {
+    exit 
+
+}
+killme() {
+        /bin/echo -en "\n\n$*\n\n" 1>&2
+        kill -1 $$
+}
+
+trap onerror 1 2 9 15
+
+[ "$#" -eq 1 ] || killme NO DIRECTORY
+
+cd $1
+
+RACE=$(ls RACE*csv | tail -1)
+
+[ -a "$RACE" ] || killme NO RACE
+
+
+tail -f -c +0 $RACE
+

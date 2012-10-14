@@ -8,8 +8,8 @@ The Race Replay Server acts as a venue located server to collect and distribute
 WT Timing unit data to an Internet Website.
 
 
-1. Data Collection - wtdb
-*************************
+1. Data Collection
+******************
 
 
 The wtdb script collects data from the WT Timing System. It determines what venue it is located at
@@ -83,4 +83,32 @@ will be unique to each timing data record:
     "rx",
     "tagid",
 
+
+
+4. wtdb
+*******
+
+The wtdb script operates in two modes:
+
+    1. daemon mode to collect data
+    2. command line mode to process previously save RACE data file
+
+
+The wtrc script can be installed in:
+
+    /etc/init.d/wtrc
+
+With appropriate linkes to the rc.N directories to ensure that the script is restated
+correctly on system boot.
+
+The script is intended to be long running with low impact to the system. Only minimal
+processing of current data is done.
+
+When in daemon mode the script logs operational events to syslog (start, connect, disconnect, 
+file opens.)
+
+
+Usage: wtdb [venue] | [ipaddr port]
+    venue - read WT Ative RACE CSV file on STDIN, output processed data on STDOUT
+    ipaddr port - connect to ipaddr:port, save in /var/racereplay/laps.*csv
 

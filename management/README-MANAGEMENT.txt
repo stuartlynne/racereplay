@@ -50,6 +50,21 @@ A list of the venues where events take place.
     CRCCrit,CRC,"Coastal Racing",1.345,10,60,5,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
     WTNC,EV,"Escape Velocity Cycling Club",1.58,20,55,5,stuart.lynne@gmail.com,"2012-10-05 12:00:00",0
 
+The venue field is a unique identifier for the venue.
+
+The organizer field is who runs events using that venue.
+
+The description field describes the venue.
+
+The distance field is the lap distance.
+
+The maxspeed field is the maximum speed expected (used to bound the lap time).
+
+The minspeed field is the minimum speed expected (used to bound the lap time).
+
+The gaptime field is the maximum gap between timing events that can be grouped.
+
+
 4. Loaners
 **********
 

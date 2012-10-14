@@ -1,0 +1,5 @@
+set ssl:verify-certificate no
+set ftp:pref-epsv yes
+open ftp://db@racereplay.host-ed.me:aa.bb.cc@ftp.racereplay.host-ed.me
+mirror -v -c -R . .
+exit

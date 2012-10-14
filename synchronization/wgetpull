@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -x
+
+mkdir -p /var/racereplay/racedata
+
+cd /var/racereplay/racedata
+
+wget -w 1 -r 192.168.1.100/race_data/
+
+
